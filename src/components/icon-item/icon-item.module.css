@@ -1,0 +1,44 @@
+.icon_item {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 30px;
+}
+
+.icon_list_item__image_container {
+  position: relative;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.icon_list_item p {
+  font-size: smaller;
+}
+
+.icon_item__download_section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.icon_item__download_section h4 {
+  padding-top: 50px;
+  font-weight: normal;
+}
+
+.scheme_section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2c5edd;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.icon_item__button_container {
+  display: flex;
+  gap: 40px;
+}
+
+.cmyk_comment {
+  padding-top: 10px;
+  font-size: small;
+}

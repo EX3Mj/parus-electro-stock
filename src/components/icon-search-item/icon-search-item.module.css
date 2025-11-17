@@ -1,0 +1,24 @@
+.icon_list_item {
+  min-height: 100px;
+}
+
+.icon_list_item__img {
+  object-fit: cover;
+}
+
+.icon_list_item__link {  
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  height: 100%;  
+  padding: 5px;
+  cursor: pointer;  
+  gap: 10px;  
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.icon_list_item__link:hover {
+  background-color: #eeeeee;
+}

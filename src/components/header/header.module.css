@@ -1,0 +1,72 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px 30px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.header__logo {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.header__text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: end;
+  max-width: 500px;
+}
+
+.header__title {
+  font-size: 20px;
+  color: #2c5edd;
+  font-weight: bold;  
+  text-align: end;
+}
+
+.header__text {
+  text-align: end;
+}
+
+@media (max-width: 600px) {
+
+  .header__logo {
+    width: 150px;
+    height: 75px;
+  }
+
+  .header__title {
+    font-size: 18px;
+  }
+
+  .header__text {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+/* Дополнительный breakpoint для очень маленьких экранов */
+@media (max-width: 400px) {
+  
+  .header__logo {
+    width: 120px;
+    height: 60px;
+  }
+
+  .header__text_container {
+  max-width: 250px;
+}
+  
+  .header__title {
+    font-size: 11px;
+  }
+
+  .header__text {
+    font-size: 9px;
+  }
+}
