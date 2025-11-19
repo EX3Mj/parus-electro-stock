@@ -32,7 +32,7 @@ export default function HomePage() {
           placeholder={
             state.loading
               ? "Загрузка иконок..."
-              : "Поиск по названию, категории, тегам..."
+              : "Поиск иконок по названию, категории, тегам..."
           }
           className={styles.search_input}
           disabled={state.loading}

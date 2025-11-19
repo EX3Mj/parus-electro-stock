@@ -1,0 +1,29 @@
+.download_button {
+  font-style: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 50px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.download_button:hover {
+  transform: scale(1.1);
+}
+
+.color_present {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #232323;
+}
+
+.download_button p span {
+  display: block;
+}
+
+.download_button p {
+  font-weight: bold;
+}

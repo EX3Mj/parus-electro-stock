@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  gap: 50px;
+  padding: 60px 60px;
+}
+
+.logo_standart__text_container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.logo_section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo_section:last-child {
+  margin-top: 50px;
+}
+
+.download_section__wrappers {
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+  gap: 15px
+}
+
+.download_section h4 {
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.download_section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.download_section__button_container {
+  display: flex;
+  gap: 15px;
+}
+
+.logo_section__img_contaner {  
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+
+.scheme_section {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2c5edd;
+  border-radius: 15px;
+  gap: 20px;
+  padding: 15px;
+}
+
+.download_special_section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.download_special_section__buttons_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.download_special_section__buttons_wrapper p {
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .main {
+    padding: 10px 10px;
+  }
+}

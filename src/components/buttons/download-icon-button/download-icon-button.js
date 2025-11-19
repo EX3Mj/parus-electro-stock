@@ -1,7 +1,7 @@
 import styles from "./download-button.module.css";
-import { RGB_COLORS } from "../configs/colors.config";
+import { RGB_COLORS } from "../../../configs/colors.config";
 
-export default function DownLoadButton({ format, color, name, scheme }) {
+export default function DownloadIconButton({ format, color, name, scheme }) {
   const createLink = () => {
     return `./icons/${scheme.toUpperCase()}/${color}/${format.toUpperCase()}/ICONS_${scheme.toUpperCase()}_${name}.${format.toLowerCase()}`;
   };
